@@ -1,0 +1,110 @@
+90-Day Agentic AI Roadmap — Day-by-Day Checklist
+
+Week 1 — Python for developers
+Goal: Become comfortable writing Python without repeating programming concepts you already know.
+- Day 1: Python syntax, variables, strings, lists, dictionaries, and run your first program. 
+    - Created GitHub account and repo
+    - Installed VS code
+    - Started going through CS50P Introduction Course on Python
+    
+- [ ] Day 2: Tuples, sets, slicing, mutability, and collection operations. Resource: Python Data Structures.
+- [ ] Day 3: Functions, arguments, return values, scope, and *args / **kwargs.
+- [ ] Day 4: List and dictionary comprehensions, iterators, generators, and idiomatic Python.
+- [ ] Day 5: Classes, objects, dataclasses, and differences from C# and Java. Resource: Python Dataclasses.
+- [ ] Day 6: Modules, imports, packages, virtual environments, and pip.
+- [ ] Day 7: Exceptions, file handling, JSON, and build a small Python task tracker.
+Week 2 — Professional Python and APIs
+- [ ] Day 8: Type hints, data models, and validation. Resource: Python Typing.
+- [ ] Day 9: Unit testing, debugging, and pytest. Resource: pytest Getting Started.
+- [ ] Day 10: Asynchronous programming with async / await. Resource: asyncio.
+- [ ] Day 11: HTTP, REST, requests, headers, status codes, and JSON payloads.
+- [ ] Day 12: Call external APIs from Python and handle timeouts and failures. Resource: HTTPX.
+- [ ] Day 13: Environment variables, API keys, .env, .gitignore, and secrets management.
+- [ ] Day 14: Build and publish a Python mini-project with tests and a README.
+Week 3 — LLM fundamentals
+- [ ] Day 15: How LLMs work: tokens, context windows, generation, limitations, and hallucinations. Resource: Hugging Face LLM Course.
+- [ ] Day 16: Prompt engineering, instructions, examples, context, and output constraints. Resource: OpenAI Prompt Engineering.
+- [ ] Day 17: Set up an LLM API and make your first Python API call. Resource: OpenAI Quickstart.
+- [ ] Day 18: Structured outputs, JSON schemas, parsing, and validating model responses.
+- [ ] Day 19: Token usage, pricing, latency, rate limits, and cost controls.
+- [ ] Day 20: Handle API errors, timeouts, retries, and malformed responses.
+- [ ] Day 21: Build an LLM-powered summarizer or classifier and publish it on GitHub.
+Week 4 — Tool calling and function execution
+- [ ] Day 22: Understand LLM tool/function calling. Resource: OpenAI Function Calling.
+- [ ] Day 23: Create Python tools that an LLM can invoke.
+- [ ] Day 24: Define tool schemas and validate arguments using Python or Pydantic.
+- [ ] Day 25: Implement the complete model → tool call → execution → result loop.
+- [ ] Day 26: Add tool permissions and human approval for consequential actions.
+- [ ] Day 27: Test tools and add logging, timeouts, and error handling.
+- [ ] Day 28: Build a small tool-using assistant with two or three tools.
+Week 5 — Agent architecture
+- [ ] Day 29: Understand the difference between chatbots, deterministic workflows, and agents.
+- [ ] Day 30: Implement the agent loop, decision-making, and stopping conditions.
+- [ ] Day 31: Manage conversation history and application state.
+- [ ] Day 32: Learn context management, summarization, and short-term memory.
+- [ ] Day 33: Implement planning and task decomposition.
+- [ ] Day 34: Add retries, timeouts, recovery logic, and bounded execution.
+- [ ] Day 35: Build a standalone agent with tools, tests, and clear safety limits.
+Week 6 — RAG, retrieval, and agent safety
+- [ ] Day 36: Learn embeddings and semantic similarity. Resource: Hugging Face NLP Course.
+- [ ] Day 37: Learn document chunking, metadata, vector search, and retrieval ranking.
+- [ ] Day 38: Build a basic Retrieval-Augmented Generation (RAG) pipeline. Resource: LlamaIndex RAG Guide.
+- [ ] Day 39: Generate answers grounded in retrieved documents, with source references.
+- [ ] Day 40: Study prompt injection and untrusted content. Resource: OWASP Top 10 for LLM Applications.
+- [ ] Day 41: Add human approval, permissions, and restrictions on external actions.
+- [ ] Day 42: Build a knowledge-base assistant that answers questions using documents and references.
+Week 7 — Agent frameworks
+- [ ] Day 43: Start the Hugging Face Agents Course and complete relevant introductory lessons.
+- [ ] Day 44: Implement a course exercise and understand its agent architecture.
+- [ ] Day 45: Compare a plain-Python agent with a framework-based agent.
+- [ ] Day 46: Learn workflow graphs, nodes, edges, conditional routing, and state.
+- [ ] Day 47: Learn persistent state, checkpoints, and resuming workflows.
+- [ ] Day 48: Implement human approval and pause/resume behavior.
+- [ ] Day 49: Rebuild your earlier agent using LangGraph and compare the implementations.
+Week 8 — Evaluation, reliability, and security
+- [ ] Day 50: Create a dataset of realistic agent tasks and expected results.
+- [ ] Day 51: Write automated tests for tool selection, arguments, outputs, and task completion.
+- [ ] Day 52: Evaluate quality and compare model or prompt changes. Resource: OpenAI Evals Guide.
+- [ ] Day 53: Add structured logs, tracing, error tracking, and execution timing. Resource: OpenTelemetry.
+- [ ] Day 54: Measure latency, token usage, and cost; enforce execution limits.
+- [ ] Day 55: Review prompt injection, secret exposure, unsafe tools, and access control.
+- [ ] Day 56: Refactor your agent to simplify unnecessary model calls and improve reliability.
+Week 9 — Capstone planning and foundation
+Choose one project that you'll develop through Day 90.
+- [ ] Day 57: Select your capstone project and define the problem it solves.
+- [ ] Day 58: Write requirements, use cases, success criteria, and failure scenarios.
+- [ ] Day 59: Design the architecture and document the data flow.
+- [ ] Day 60: Set up the project structure, dependencies, configuration, tests, and README.
+- [ ] Day 61: Implement the core LLM integration.
+- [ ] Day 62: Build and test the tools the agent needs.
+- [ ] Day 63: Connect the model, tools, state, and output into an end-to-end workflow.
+Week 10 — Capstone functionality
+- [ ] Day 64: Add RAG or external data integration if required by your project.
+- [ ] Day 65: Implement conversation state or persistence where useful.
+- [ ] Day 66: Add planning and routing for different task types.
+- [ ] Day 67: Implement human approval and safety controls.
+- [ ] Day 68: Handle API failures, timeouts, invalid outputs, and rate limits.
+- [ ] Day 69: Write unit and integration tests.
+- [ ] Day 70: Review the project against its requirements and remove unnecessary features.
+Week 11 — Testing and hardening your capstone
+- [ ] Day 71: Run your evaluation dataset and record baseline results.
+- [ ] Day 72: Fix the highest-impact failures and measure the improvements.
+- [ ] Day 73: Improve retrieval quality, tool descriptions, or input validation.
+- [ ] Day 74: Add observability and ensure logs don't expose secrets.
+- [ ] Day 75: Add limits for cost, execution time, retries, and agent steps.
+- [ ] Day 76: Audit dependencies, configuration, and project setup.
+- [ ] Day 77: Run security tests, including prompt injection and unauthorized tool-use scenarios.
+- [ ] Day 78: Improve the user experience and error messages.
+- [ ] Day 79: Test the project from a clean environment and prepare a release candidate.
+- [ ] Day 80: Document evaluation results, known failures, and limitations.
+Week 12 — Deployment and portfolio
+- [ ] Day 81: Choose a deployment approach appropriate to your project.
+- [ ] Day 82: Package your application or expose it through an API using FastAPI if appropriate.
+- [ ] Day 83: Configure deployment secrets and environment variables securely.
+- [ ] Day 84: Deploy the application or create a reproducible local demo.
+- [ ] Day 85: Document logging, monitoring, recovery, and rollback procedures.
+- [ ] Day 86: Run end-to-end acceptance tests.
+- [ ] Day 87: Complete the GitHub README with setup instructions, architecture, examples, and limitations.
+- [ ] Day 88: Prepare a demonstration with sample inputs and outputs.
+- [ ] Day 89: Clean up the repository, review the code, and publish the final version.
+- [ ] Day 90: Write a retrospective, assess your skills, and plan your next project.
